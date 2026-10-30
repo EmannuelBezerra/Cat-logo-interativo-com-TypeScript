@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <img src="logo.jpeg" alt="Logo catálogo games" class="cabecalho__logo">
+        </div>
+    </header>
+
+    <main>
+        <!-- Resumo dos jogos -->
+        <section class="resumo" aria-label="Resumo do catálogo">
+            <p> Bem-vindo ao nosso catálogo de jogos! Aqui você encontrará uma seleção dos melhores jogos do momento. </p>
+            <div class="resumo__item">Total <strong id="resumo-total">0</strong></div>
+            <div class="resumo__item">Lançados<strong id="resumo-lancamentos">0</strong></div>
+            <div class="resumo__item">Em desenvolvimento<strong id="resumo-em-desenvolvimento">0</strong></div>
+        </section>
+
+       <!-- Cadastro dos jogos -->
+        <section>
+            <h2>Cadastrar jogo</h2>
+            <form id="formulario" novalidate>
+                <label>Título
+                    <input type="text" id="titulo" placeholder="Ex.: Overwatch">
+                </label>
+
+                <label>Categoria
+                    <select id="categoria"></select>
+                </label>
+
+                <label>Preço (R$)
+                    <input type="number" id="preco" step="0.01" min="0" placeholder="Ex.: 199.90">
+                </label>
+
+                <label class="checkbox">
+                    <input type="checkbox" id="lancado">
+                    Jogo já foi lançado.
+                </label>
+
+                <button type="submit">Adicionar</button>
+                <p id="mensagem-erro" class="erro" role="alert"></p>
+            </form>
+        </section>
+
+        <!-- Busca e filtro -->
+        <section class="filtros">
+            <input type="search" id="busca" placeholder="Buscar por título...">
+            <select id="filtro-categoria"></select>
+        </section>
+
+        <!-- Lista de jogos -->
+        <section>
+            <p id="mensagem-vazia" class="vazio" hidden>Nenhum jogo encontrado.</p>
+            <div id="lista-jogos" class="lista"></div>
+        </section>
+    </main>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
