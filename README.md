@@ -2,14 +2,12 @@
 
 Aplicação web para cadastrar, buscar, filtrar e organizar um catálogo de jogos, desenvolvida com **HTML, CSS e TypeScript**.
 
-## 👤 Autor(es)
+## 👤 Autor
 
-- **Nome:** SEU NOME COMPLETO
+- **Nome:** Emannuel Bezerra Castro
 - **GitHub:** [EmannuelBezerra](https://github.com/EmannuelBezerra)
-- **Curso/Disciplina:** NOME DO CURSO / DISCIPLINA
+- **Curso/Disciplina:** Bacharelado em Ciência da Computação / Tópicos especiais em Desenvolvimento Web
 - **Instituição:** NOME DA INSTITUIÇÃO
-
-> Se o trabalho for em dupla ou grupo, acrescente os demais integrantes na lista acima.
 
 ## 🎯 Objetivo
 
@@ -101,7 +99,7 @@ A pasta `node_modules` **não** acompanha o projeto. Ela é criada ao instalar a
 
 ## 🎥 Vídeo de demonstração
 
-[Assista ao vídeo aqui](COLE_O_LINK_DO_VIDEO)
+[Assista ao vídeo aqui](https://youtu.be/KeIsyCQoUv4)
 
 ## 📄 Licença
 
